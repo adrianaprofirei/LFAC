@@ -1,0 +1,35 @@
+%vars
+
+int n = 100;
+int m = 50;
+int[5] list;
+list[1] = 10;
+list[2] = 20;
+list[3] = 30;
+float nr = 12.5876;
+string s = "asd";
+bool ok = false;
+
+bool adev = true || false;
+bool fals = true && false;
+
+printTable;
+
+%end
+
+%func
+%end
+
+%user
+%end
+
+%main
+
+TypeOf(n);
+Eval(((adev && fals) || ok) && true);
+nr = 15.3;
+n = n / 2;
+ok = n == m;
+printTable;
+
+%end
